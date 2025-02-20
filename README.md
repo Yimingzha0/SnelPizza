@@ -1,8 +1,87 @@
-# React + Vite
+# 🍕 Pizza Ordering System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive pizza ordering application built with modern React technologies.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit the live application: [Snel Pizza System](https://snel-pizza.vercel.app/)
+
+## ✨ Features
+
+- **User-friendly Interface**: Simple flow from menu to checkout
+- **Customizable Orders**: Add, remove, and adjust quantities of pizzas
+- **Location Detection**: Automatically detect delivery location
+- **Priority Option**: Choose priority delivery for faster service
+- **Delivery Time Estimation**: Get accurate waiting time estimates
+- **Responsive Design**: Works seamlessly on all devices
+
+## 🛠️ Technology Stack
+
+- **Frontend Framework**: React
+- **Routing**: React Router with data loading
+- **State Management**: Redux with Redux Toolkit
+- **Side Effects**: Redux Thunks
+- **Styling**: Tailwind CSS
+- **Geolocation**: Geolocation API
+
+## 📱 User Flow
+
+1. **Welcome Screen**
+    - Enter your name to begin ordering
+
+2. **Menu Selection**
+    - Browse available pizzas
+    - Add pizzas to cart
+    - Adjust quantities
+    - Remove unwanted items
+
+3. **Cart Review**
+    - View selected items
+    - Confirm quantities
+    - See subtotal
+
+4. **Checkout**
+    - Confirm name
+    - Get current location 
+    - Choose priority delivery option
+    - Submit order
+
+5. **Order Confirmation**
+    - Receive estimated delivery time
+    - Order summary
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 
+- npm 
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/Yimingzha0/SnelPizza
+cd fast-react-pizza
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm start
+# or
+yarn start
+```
+
+The application will be available at `http://localhost:5173`
+
+## 🛣️ Future Enhancements
+
+- [ ] User accounts and order history
+- [ ] Payment processing integration
+- [ ] Customizable pizza options
+- [ ] Restaurant selection for multiple locations
